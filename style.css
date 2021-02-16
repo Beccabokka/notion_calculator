@@ -1,0 +1,153 @@
+body {
+  background-color: #ffff;
+}
+
+a {
+  text-decoration: none;
+  color: #f7c1cd;
+}
+a:visited {
+  text-decoration: none;
+  color: #f7c1cd;
+}
+
+.calculator {
+  background-color: #f5dcde;
+  height: 460px;
+  width: 350px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 40px;
+  border: 0.5px solid white;
+  box-shadow: 6px 9px 20px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #bdacad;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h5 {
+  margin-bottom: -10px;
+  text-align: center;
+  font-family: 'Lucida Console';
+  font-size: 22px;
+  color: #f5f0f0;
+  letter-spacing: 2px;
+}
+
+#screen {
+  background-color: #bdacad;
+  border: 3px solid #827475;
+  height: 70px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 3px;
+}
+
+.input {
+  font-family: 'Tahoma';
+  font-size: 45px;
+  color: #3b3b3b;
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.formula {
+  font-family: 'Tahoma', serif;
+  font-size: 9px;
+  color: #3b3b3b;
+  padding-right: 11px;
+}
+
+#buttons {
+  display: flex;
+  margin-top: -10px;
+}
+
+#left-buttons {
+  flex-basis: 1;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  height: 250px;
+  width: 230px;
+  margin-top: 20px;
+  margin-left: 36px;
+}
+
+#right-buttons .button {
+  margin-bottom: 15px;
+}
+
+#right-buttons {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: flex-start;
+  height: 250px;
+  margin: 20px 44px 0 0;
+}
+
+.button {
+  font-size: 19px;
+  box-shadow: 0px 4px 0px 0px #bd8488;
+  font-family: 'Tahoma', serif;
+  border-radius: 11px;
+  cursor: pointer;
+  padding: 9px 11px;
+  width: 34px;
+  height: 20px;
+  text-align: center;
+  margin-left: 11px;
+  margin-bottom: 15px;
+}
+
+
+.hot-pink {
+  background-color: #f0afb3;
+}
+
+.white {
+  background-color: white;
+  color: #f0afb3;
+
+
+}
+
+.white:active {
+  box-shadow: none;
+  margin-top: 3px;
+  margin-bottom: 12px;
+}
+
+.zero {
+  flex-grow: 1;
+}
+
+.dot {
+
+}
+
+.equals {
+  padding: 35.5px 10px;
+}
+
+.hot-pink:active {
+  box-shadow: none;
+  margin-top: 3px;
+  margin-bottom: 12px;
+}

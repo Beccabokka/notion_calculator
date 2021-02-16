@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pink Calculator edit</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Calculator</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:400" rel="stylesheet">
+</head>
+
+<body>
+  <div class="calculator">
+    <h5>
+      <b>PINK CALCULATOR</b>
+    </h5>
+
+
+
+    <div id="screen">
+        <span class="input"></span>
+        <span class="formula"></span>
+    </div>
+
+    <div id="buttons">
+      <div id="left-buttons">
+        <span class="button hot-pink" id="AC">AC</span>
+        <span class="button hot-pink" id="CE">CE</span>
+        <span class="button white" id="divide" onclick="symbolPadPress(' &divide; ')">&divide;</span>
+
+        <span class="button white" id="7" onclick="padPress('7')">7</span>
+        <span class="button white" id="8" onclick="padPress('8')">8</span>
+        <span class="button white" id="9" onclick="padPress('9')">9</span>
+
+        <span class="button white" id="4" onclick="padPress('4')">4</span>
+        <span class="button white" id="5" onclick="padPress('5')">5</span>
+        <span class="button white" id="6" onclick="padPress('6')">6</span>
+
+        <span class="button white" id="1" onclick="padPress('1')">1</span>
+        <span class="button white" id="2" onclick="padPress('2')">2</span>
+        <span class="button white" id="3" onclick="padPress('3')">3</span>
+
+        <span class="button white zero" id="0" onclick="padPress('0')">0</span>
+        <span class="button white dot" id="dot" onclick="padPress('.')">.</span>
+      </div>
+
+      <div id="right-buttons">
+        <span class="button white" id="multiply" onclick="symbolPadPress(' &times; ')">x</span>
+        <span class="button white" id="subtract" onclick="symbolPadPress(' &minus; ')">-</span>
+        <span class="button white" id="add" onclick="symbolPadPress(' + ')">+</span>
+        <span class="button white equals" id="equals">=</span>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="javascript.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
